@@ -1,0 +1,445 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: linen;
+  margin: auto;
+  width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#header {
+  height: 600px;
+  background: url(https://cdn1.ozone.ru/s3/multimedia-6/6449417742.jpg);
+  background-size: cover;
+  
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  width: 1200px;
+  position: fixed;
+  z-index: 100;
+  background: #fff;
+}
+
+.img_box {
+  height: 85px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+}
+
+#header-img {
+  transform:  rotate(180deg);
+  mix-blend-mode: multiply;
+  height: 100px; 
+  
+}
+
+.title_abbr {
+  font-size: 5em;
+  vertical-align: 7%;
+  font-family: "Emilys Candy";
+}
+
+nav a {
+  margin-right: 50px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background: linear-gradient(to right, #204ba7, #dd641b, #b42900,#dd641b,#204ba7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social_icons img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+h1 {
+  position: relative;
+  top: 280px;
+  left: 160px;
+  font-size: 3.5em;
+  color: linen;
+}
+
+h1 span {
+  margin-left: 60px;
+}
+
+.span_abbr {
+  background: linear-gradient(to right, #204ba7, #dd641b, #b42900,#dd641b,#204ba7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  height: 500px;
+  margin-top: 50px;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about h2::after {
+  content: url(https://avatars.mds.yandex.net/i?id=222253ab913806918429dd74a2b4c2326551a14f-4375317-images-thumbs&n=13);
+  display: block;
+  transform: scale(0.4);
+  mix-blend-mode: multiply;
+  position: relative;
+  top: -30px;
+}
+
+.about_us {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.about_us p {
+  padding-right: 500px;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #e5d4b3;
+  color: #49867c;
+  border-radius: 5px;
+  position: relative;
+  left: 185px;
+  top: 50px;
+  box-shadow: 1px 1px 5px; 
+}
+
+.btn:hover {
+  color: #fff;
+  background: #666;
+}
+
+.btn:active {
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+#video {
+  position: absolute;
+  left: 540px;
+  top:  0;
+}
+
+.features {
+  height: 650px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.features::after {
+  content: "";
+  background: url(https://bogatyr.club/uploads/posts/2023-03/1678264636_bogatyr-club-p-starinnie-uzori-foni-vkontakte-48.jpg) center;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#features {
+  scroll-margin-top: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#features::after {
+  content: url(https://avatars.mds.yandex.net/i?id=b0cb1c2107c44ce4433391324497ce96acb0a7df-5451357-images-thumbs&n=13);
+  display: block;
+  transform: scale(0.4);
+  mix-blend-mode: multiply;
+  position: relative;
+  top: -20px;
+}
+
+.features_items {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f_item {
+  width: 500px;
+  height: 150px;
+  padding: 20px;
+  position: relative;
+  
+}
+
+.f_item img {
+  height: 50px;
+  position: absolute;
+}
+
+.f_item p {
+  padding-left: 100px;
+  font-size: 1.1em;
+}
+
+.cooperation {
+  height: 700px;
+  margin-top: 50px;
+}
+
+#cooperation {
+  scroll-margin-top: 100px;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+#cooperation::after {
+  content: url(https://avatars.mds.yandex.net/i?id=ce26d82788315dd6f826a863668f3c1b623f7452-5334852-images-thumbs&n=13);
+  display: block;
+  transform: scale(0.4);
+  mix-blend-mode: multiply;
+  position: relative;
+  top: -20px;
+}
+
+.coop_section {
+  width: 1000px;
+  margin: 0 auto;
+  position:relative;
+}
+
+.coop_section h2 {
+  margin-bottom: 70px;
+  position: relative;
+  font-size: 2.2em;
+  background: url(https://i.pinimg.com/originals/bc/ea/02/bcea02caced383dd54ff6a3f5d8af43a.jpg) bottom left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.coop_section h2::after {
+  content: url(https://avatars.mds.yandex.net/i?id=6f4928227d90cdecc1788fc6c6ac75ef562daf85-5238923-images-thumbs&n=13);
+  display: block;
+  transform: scale(0.5) rotate(200deg);
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+
+.coop_section li {
+  list-style: none;
+  margin: 0 0 50px 60px;
+  font-size: 1.2em;
+  position: relative;
+}
+
+.coop_section li::before {
+  content: url(https://cdn-icons-png.flaticon.com/128/15526/15526296.png);
+  display: block;
+  transform: scale(0.4);
+  position: absolute;
+  top: -60px;
+  left: -100px;
+
+}
+
+#form {
+  width: 400px;
+  height: 500px;
+  background: url(https://i.pinimg.com/originals/dc/f7/5d/dcf75df539ae613f88c5fbdb7f5005c8.jpg)  center;
+  position: absolute;
+  top: 0;
+  left: 600px;
+  padding: 30px 0 0 40px;
+  border-radius: 10px;
+}
+
+input,
+select,
+textarea {
+  margin: 20px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #f2f4f6;
+}
+
+#submit {
+  background: url(https://avatars.mds.yandex.net/i?id=50aa16168e4c59a57693d30de7e0e19033f4dfc5eb094fac-12639726-images-thumbs&n=13) center/cover;
+}
+
+#submit:hover {
+  color: #fff;
+  background: #666;
+}
+
+#submit:active {
+ /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+.price {
+  height: 650px;
+  margin-top: 50px;
+}
+
+#price {
+  scroll-margin-top: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#price:after {
+   content: url(https://avatars.mds.yandex.net/i?id=b4dd1e397715854821534a93935d3cfc50bd0763-11521919-images-thumbs&n=13);
+  display: block;
+  transform: scale(0.4);
+  mix-blend-mode: multiply;
+  position: relative;
+  top: 0;
+}
+
+.price_items {
+  width: 900px;
+  height: 400px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price_item {
+  border: 1px solid black;
+  width: 200px;
+  height: 400px;
+  padding:20px;
+  background: url(https://avatars.mds.yandex.net/i?id=50aa16168e4c59a57693d30de7e0e19033f4dfc5eb094fac-12639726-images-thumbs&n=13) center/cover;
+  box-shadow: 2px 2px 10px;
+}
+
+.price_item p {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.price_1 {
+  height: 60px;
+  mix-blend-mode: multiply;
+  position: relative;
+  top: 30px;
+  left: 40px;
+  clip-path: inset(0 0 0 4px);
+}
+
+.price_2 {
+  height: 90px;
+  display: block;
+  margin: auto;
+  mix-blend-mode: multiply;
+}
+
+.price_3 {
+  height: 110px;
+  display: block;
+  margin: auto;
+  mix-blend-mode: multiply;
+}
+
+.price_4 {
+  height: 130px;
+  mix-blend-mode: multiply;
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
+
+#contact {
+  height: 500px;
+  scroll-margin-top: 100px;
+  background: url(https://i.pinimg.com/736x/b3/6c/79/b36c79e7ba4f07f3451f1641acfe632f.jpg);
+  background-size: cover;
+  border-top: 10px ridge #aea294;
+}
+
+.tel {
+  width: 245px;
+  height: 40px;
+  font-family: "Emilys Candy";
+  font-size: 2em;
+  /* background: pink; */
+  position: relative;
+  top: 150px;
+  left: 250px;
+  transform: rotate(-5deg);
+}
+
+.email {
+  width: 315px;
+  height: 40px;
+  font-family: "Emilys Candy";
+  font-size: 2em;
+  /* background: pink; */
+  position: relative;
+  top: 200px;
+  left: 300px;
+  transform: rotate(-3deg);
+}
+
+.city {
+  width: 180px;
+  height: 40px;
+  font-family: "Emilys Candy";
+  font-size: 2em;
+  /* background: pink; */
+  position: relative;
+  top: 250px;
+  left: 250px;
+  transform: rotate(-1deg);
+}
+
+.copyrights {
+  width: 350px;
+  height: 40px;
+  font-family: "Emilys Candy";
+  font-size: 2em;
+  /* background: pink; */
+  position: relative;
+  top: 300px;
+  left: 550px;
+  transform: rotate(-4deg);
+}
+
+.copyrights::before {
+  content: url(https://images.squarespace-cdn.com/content/v1/54573238e4b034bc49ba820c/1553639865463-7ZUAXMEQHTATGGVJP5PM/black-underline-png-8.png);
+  display:block;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: -150px;
+  left: -1100px;
+  transform: scale(0.2) rotate(-5deg);
+}
