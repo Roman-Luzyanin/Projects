@@ -16,3 +16,8 @@ body {
     grid-template-columns: 100px 1000px 100px;
     font: 16px/1.6 serif;
 }
+
+.header {
+    grid-column: 2;
+    color: #fff;
+}
